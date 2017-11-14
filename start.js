@@ -92,6 +92,15 @@ server.get('/about',function(req,res){
 
   res.render('about');
 });
+
+server.get('/a',function(req,res){
+var di=Person.find({},function(err,data){
+if(err) console.log(err);;
+console.log(data);
+res.render('adminpanel',b={data});
+
+});
+});
 /*server.get('/up',function(req,res){
 
   res.render('contact');
@@ -107,6 +116,17 @@ server.post('/msg',function (req, res) {
 
 });
 */
+
+server.get('/a2',function(req,res){
+var di=Person.find({},function(err,data){
+if(err) console.log(err);;
+console.log(data);
+res.render('ad2',b={data});
+
+});
+});
+
+
 server.get('/gal',function(req,res){
   var im =[];
   var walker  = walk.walk('./Images', { followLinks: false });
