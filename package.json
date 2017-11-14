@@ -1,19 +1,33 @@
 {
-  "name": "sayon",
+  "name": "sayon-master",
   "version": "1.0.0",
-  "description": "prototype",
+  "description": "bal",
   "main": "start.js",
   "dependencies": {
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.15.5",
     "mongoose": "^4.13.1",
-    "path": "^0.12.7"
+    "node-dir": "^0.1.17",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7",
+    "walk": "^2.3.9"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node start.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annobot/final.git"
+  },
+  "keywords": [
+    "bal"
+  ],
+  "author": "badal aash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annobot/final/issues"
+  },
+  "homepage": "https://github.com/annobot/final#readme"
 }
